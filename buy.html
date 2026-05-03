@@ -3,22 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doll Shop - Buy</title>
-    <link rel="stylesheet" href="css/buy.css">
+    <link rel="stylesheet" href="font/font.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="buy.css">
+    <title>Product Buy</title>
 </head>
 <body>
-    <header>
-        <h1>How to Buy</h1>
-        <nav>
-            <a href="index.html">Home</a> |
-            <a href="about.html">About</a> |
-            <a href="product.html">Products</a> |
-            <a href="buy.html">Buy</a> |
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <p>Purchasing from our doll shop is easy! Browse our products, add to cart, and checkout securely. We accept all major payment methods and offer worldwide shipping.</p>
-    </main>
+     <section class="mycontainer" buysec>
+        <!-- Start Nav  -->
+      <nav class="navbar">
+        <a href="#" class="logo"> Doll Shopping </a>
+        <ul class="links" type="none">
+          <a href="index.html"><li class="link">Home</li></a>
+          <a href="product.html"><li class="link contact">Product</li></a>
+          <a href="about.html"><li class="link">About</li></a>
+          <a href="contact.html"><li class="link">Contact</li></a>
+        </ul>
+      </nav>
+      <!-- End Nav  -->
+      <div class="buy">
+        <div class="buy-card">
+            <p class="title">Welcome Users</p>
+            <p class="text">
+                Thank you for your ordering, please your name and address by filling these form 
+            </p>
+
+            <form action="">
+                <div class="inputborder">
+                    <div class="formdiv">
+                        <input type="text" class="forminput" id="myname" placeholder="">
+                        <label for="" class="formlabel">
+                            Your Name 
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="inputborder">
+                    <div class="formdiv">
+                        <input type="text" class="forminput" id="add" placeholder="">
+                        <label for="" class="formlabel">
+                            Address 
+                        </label>
+                    </div>
+                </div>
+
+                 <div class="formbottom">
+                    <label for="" class="check">
+                        <input type="checkbox"> &nbsp; Cash On Delivery
+                    </label>                                       
+                </div>
+                <div class="formbtn">
+                    <button type="button" class="order" id="order">Order</button>
+                </div> 
+            </form>
+        </div>
+      </div>
+     </section>
+
+     <footer>
+        All right reserved Copy Right &copy; KMD 2025
+     </footer>
 </body>
 </html>
+<script src="buy.js"></script> 

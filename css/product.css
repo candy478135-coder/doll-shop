@@ -1,32 +1,35 @@
-/* Product Page */
+/* product page  */
 .product{
     display: flex;
 }
 
-/* sidebar */
+/* side bar  */
 .sidebar{
     padding: 20px;
     background-color: floralwhite;
     font-family: 'Raleway',sans-serif;
 }
+
 .sidebar li button {
     margin-bottom: 31px;
 }
-/* product card */
-.cards{
-    font-family: 'Poppins',sans-serif;
+
+/* product card  */
+.cards {
+    font-family: 'Poppins', sans-serif;
 }
 
 .imgbox{
     display: flex;
 }
 
-.imgbox .cards{
+.imgbox .card{
     margin: 28px;
     border-radius: 10px;
 }
+
 .card:hover{
-    box-shadow: rgba(0,0,0,0.1)0px 20px 25px -5px, rgba(0,0,0,0.04) 0px 10px 10px -5px;
+    box-shadow: rgba(0,0,0,0.1) 0px 20px 25px -5px, rgba(0,0,0,0.04) 0px 10px 10px -5px;
 }
 
 .imgbox img{
@@ -41,11 +44,12 @@
     align-items: center;
     margin-bottom: 20px;
 }
+
 .price span{
     color: darkcyan;
 }
 
-button {
+button{
     cursor: pointer;
     border-radius: 5px;
     margin-top: 10px;
@@ -57,8 +61,8 @@ button {
     background-color: cadetblue;
     transition: 0.5s;
 }
+
 button:hover{
-    transition: o.5s;
+    transition: 0.5s;
     background-color: darkcyan;
-    
 }
